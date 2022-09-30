@@ -39,7 +39,7 @@ public class Gauss_Elem {
 		ry = matrix.get(j);
 		
 		for(int a = 0; a < rx.size(); a++) {
-			if(rx.get(a) == 1) {
+			if(rx.get(a) == 1 && a <= rx.size()-2) {
 				divisor = -ry.get(a);
 				break;
 			}
