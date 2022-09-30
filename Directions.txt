@@ -1,0 +1,3 @@
+input the matrix in the txt file titled matrix.txt. 
+run Java program in terminal or IDE
+No UI or Front-End
